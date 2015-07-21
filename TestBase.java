@@ -8,9 +8,8 @@ import com.example.fw.ApplicationManager;
 public class TestBase {
 	
 	protected ApplicationManager app; 
-	//static
 
-
+	
 	@BeforeTest
 	public void setUp() throws Exception {
 		app = new ApplicationManager ();
